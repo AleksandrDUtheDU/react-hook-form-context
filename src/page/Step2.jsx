@@ -1,11 +1,11 @@
 import { Typography, TextField, FormControlLabel, Checkbox } from '@mui/material';
-import { FormWrapp } from './FormWrapp';
+import { FormWrapp } from '../component/FormWrapp';
 import { useForm, Controller } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { useNavigate } from 'react-router-dom';
 import { parsePhoneNumberFromString } from 'libphonenumber-js';
-import { CustomButton } from './CustomButton';
+import { CustomButton } from '../component/CustomButton';
 import { useData } from '../context/DataContext';
 
 

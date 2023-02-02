@@ -1,9 +1,9 @@
 import { Typography } from '@mui/material';
-import { FormWrapp } from './FormWrapp';
+import { FormWrapp } from '../component/FormWrapp';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router-dom';
-import { CustomButton } from './CustomButton';
-import { FileInput } from './FileInput';
+import { CustomButton } from '../component/CustomButton';
+import { FileInput } from '../component/FileInput';
 import { useData } from '../context/DataContext';
 
 let counter = 0
